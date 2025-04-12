@@ -1,1 +1,143 @@
+MySQL Daily Activity --
+===================================================================================================================================================
+
+Date 08-04-2025: I setup MySQL on my laptop, read about DDL and DML and exercising on how to create a database and create table over database
+✅what is MySQL why we use: 
+🟣MySQL is RDBMS that make relation between server and database.
+🟣it is open source database software. 
+
+✅difference between database and file? 
+   we store information on database for permanently use. 
+   we store the information on file for temporary use.
+✅what is SQL and MySQL ?
+
+✅ SQL is structure query language and Its provide commands that deal with database by writing a query.
+✅ SQL : DDL, DML, DCL, TCL
+
+✅DDL : stands for data definition language
+       : (create, alter, drop, truncate, rename etc)  
+🔵DDL stands for Data Definition Language, which defines the structure or schema of the database.
+
+✅DML, or the Data Manipulation Language, helps us deal with managing and manipulating data in the database. 
+🔵It is stands for data manipulate language.
+🔵 DML : insert, update, delete, retrieve etc. 
+
+✅DCL: Data control language provide grant and revoke commands
+
+✅TCL: TCL is a set of commands used to manage transactions in a database management system (DBMS)
+
+🔵TCL commands are used to start, commit, and roll back transactions
+
+===============================================================================================================================================
+
+09-04-2025: I learn about constraints, key, subquery and joins and Exercise on complex query using joins and clause.
+
+🔵 Constraints: Auto Increment,  not null, check, default,  unique, primary key, foreign key
+✅ Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table.
+✅ Not Null: it does not accept null value.
+✅ The UNIQUE constraint ensures that all values in a column are different.
+✅ Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
+✅ PRIMARY KEY constraint automatically has a UNIQUE constraint.
+✅ However, you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+✅ foreign key: The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.
+✅ A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+
+🔵 clause- where and  insert into statement.
+✅Aliases:  it is used to give a table, or a column in a table, a temporary name.
+
+✅ Apart from this I also learn about joins, what is self join, inner join, left join, right join, cross join,  multiple table.
+🔵 what is joins?
+✅  A JOIN : it is  clause is used to combine rows from two or more tables, based on a related column between them.
+✅  self join:  is a regular join, but the table is joined with itself.
+✅  The INNER JOIN :  keyword selects records that have matching values in both tables.
+✅  The LEFT JOIN:  keyword returns all records from the left table (table1), and the matching records (if any) from the right table (table2).
+✅  The RIGHT JOIN: keyword returns all records from the right table (table2), and the matching records (if any) from the left table (table1).
+✅  The CROSS JOIN:  keyword returns all records from both tables (table1 and table2).
+
+=============================================================================================================================================================
+
+10-04-2025: I taken knowledge about Transactions, Commit and Rollback in MySQL RDBMS.
+A transaction is a sequence of operations performed as a single logical unit of work. In databases, transactions ensure data integrity and consistency.
+
+✅Understand What a Transaction Is
+   >> A transaction is a group of operations that should be executed as a single unit.
+✅Example: Bank transfer – debit from one account, credit to another.
+
+✅Importance of Transaction Management
+  🔵 Helps in maintaining the consistency and reliability of data.
+  🔵 Crucial for applications that deal with multiple related database operations.
+
+✅ACID Properties
+🟣Learn the four key properties of transactions:
+    🔵Atomicity – All or nothing.
+    🔵Consistency – Data remains valid.
+    🔵Isolation – Transactions don’t affect each other.
+    🔵Durability – Committed changes persist.
+
+✅Commit Operation
+     🔵Commit is used to save all the changes made by the transaction permanently in the database.
+     🔵Used to save all changes permanently.
+     🔵Once committed, changes cannot be rolled back.
+
+      Example:
+
+       BEGIN TRANSACTION;
+       UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+       UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+       COMMIT;
+
+✅Rollback Operation
+      🔵Rollback is used to undo all changes made in the current transaction.
+      🔵Used to undo changes if something goes wrong.
+      🔵Helps prevent corrupt or partial data.
+     
+     Example: 
+               BEGIN TRANSACTION;
+               UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+               -- Something goes wrong here
+               ROLLBACK;
+
+     
+✅ Error Handling with Transactions
+
+✅ Learn how to use try-catch blocks in code (like JDBC in Java) to manage commits and rollbacks safely.
+
+✅Real-Life Applications
+
+  Used in banking systems, order processing, inventory updates, etc.
+
+
+=======================================================================================================================================================
+✅ 11-04-2025:  Today I taken knowledge about Aggregate function in MySQL DATABASE
+
+📘 Exercise: Student Score Analysis
+
+✅ Analyze student scores using aggregate functions like:
+
+         🔵 AVG() – to find average scores       
+         🔵 MIN() – to find the lowest score
+         🔵 MAX() – to find the highest score
+         🔵 SUM() – to calculate total scores
+         🔵 COUNT() – to count number of entries
+
+✅ Use GROUP BY and HAVING to:
+
+  Group students or subjects for better summarized results
+  Apply conditions on aggregate results (e.g., only show subjects with avg score > 75)
+
+✅ Combine JOIN with GROUP BY / HAVING to:
+
+  Perform deeper analysis across multiple tables (e.g., join student info with scores table for complete insights)
+
+🌟 Advantages to use:
+                🔵Efficient Data Summarization
+                🔵Powerful Reporting
+                🔵Better Decision Making
+                🔵Real-world Applications: Used in dashboards, analytics, and data-driven apps.
+
+================================================================================================================================================
+
+
+  
+
 
