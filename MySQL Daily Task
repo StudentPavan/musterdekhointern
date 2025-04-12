@@ -137,6 +137,18 @@ A transaction is a sequence of operations performed as a single logical unit of 
 
 ================================================================================================================================================
 
+challenges completed: 
+> Create databases in mysql;
+> create table and insert into the data.
+> create a student table
+> create a employee table
+> write a query for analysis a student score using aggrecates function.
+> write a query to join a two or more table.
+> Exercise on crud opertion.
+> Student grade management system
+=================================================================================================================================================
+
+
 
   
 
