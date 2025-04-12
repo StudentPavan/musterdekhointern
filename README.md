@@ -1,2 +1,2 @@
 # musterdekhointern
-Daily learning and Task
+My learning reports and Task based on daily bases according to my intership curricullam. 
