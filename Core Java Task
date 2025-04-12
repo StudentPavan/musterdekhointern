@@ -1,1 +1,125 @@
+05-03-2025: Java Basics
+1.java Introduction
+==================
+1.java is a popular programming language.
+2.Father of java is James gosling.
+3.Java 1st verison (1.0) was introduced by Sunmicrosystem in 1996.
+4.At present java was owned by oracle corporation.
 
+java was technically divided into 3 parts
+=========================================
+1.j2se
+======
+1.j2se stands for java 2 standard edition.
+2.In j2se we will learn java fundamentals.
+3.By using j2se we will develop standalone/desktop/window based App
+
+2.j2ee
+======
+1.j2ee stands for java 2 enterprise edition.
+2.In j2ee we will learn server side programming.
+3.By using j2ee we will develop enterprise/distributed app.
+
+3.j2me
+======
+1.j2me stands for java 2 micro edition.
+2.In j2me we will learn micro side programming.
+3.By using j2me we will develop mobile based App
+
+Basic java program syntax
+=========================
+class ClassName
+{
+	public static void main(String[] args)
+	{
+	--------------------------------
+	statements
+	---------------------------------
+	}
+}
+
+Simple Programme on Java
+===========================
+
+class Demo
+{
+	public static void main(String[] args)
+	{
+		System.out.println("welcome to java");
+	
+	}
+}
+
+output:  welcome to java
+
+Java features
+==============
+Java features are services or facilities.
+
+1.simple programming language.
+2.platform independent programming language.
+3.Statically typed programming language.
+4.Highlevel programming language.
+5.Integrated programming language.
+6.Robust programming language.
+7.Both functional and object oriend programming language.
+8.Portable programming language.
+9.Multithread programming language.
+10.Dynamic programming language.
+
+1.simple programming language.
+==============================
+1.java is a simple programming language because it contains predefine methods.
+2.Java removed complicated topic like pointers.
+3.Java contains simple syntax and easy to understand.
+
+2.predefine methods
+====================
+The methods which are already present in java software(jdk).These methods are developed by 
+java developers.
+
+Examples
+========
+1.sqrt()
+2.add()
+3.max()
+4.min()
+
+3.Userpredefine methods
+====================
+The methods which are not present in java software(jdk).These methods are developed by 
+java programmers.
+
+Examples
+=========
+1.bhavadeesh()
+2.virat()
+3.dhoni()
+4.pawan()
+
+Variable in java : 
+===================
+1.A variable is a container.
+2.The purpose of variable is to store operand(value,variable,expression).
+3.variable declaration syntax: 
+      datatype varname;==========>variable declaration
+      varname=value==============>assigning
+
+      int a;
+      a=5;
+4.variable Initialization syntax: 
+        datatype varname=value;
+         int a=2;
+
+5.int a=5=======>value
+6.int b=a========>variable
+7.int c=6+3======>expression
+
+==========================================================================================================================================
+
+06-03-2025:   Arrays and Strings: Handling and Manipulation
+
+
+
+
+           
